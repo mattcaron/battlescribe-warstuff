@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88aa-9d7c-f671-cb81" revision="2" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88aa-9d7c-f671-cb81" revision="3" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d33a-85f4-5dae-be76" name="Quality 1 Unit" points="10.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -158,7 +158,7 @@
       <modifiers/>
       <rules>
         <rule id="805d-5c3e-d9bd-f50b" name="Deadly" hidden="false">
-          <description>Whenever this unit attacks an enemy and rolls a 6 </description>
+          <description>Whenever this unit attacks an enemy and rolls a 6 the defender is immediately killed.</description>
           <modifiers/>
         </rule>
       </rules>
