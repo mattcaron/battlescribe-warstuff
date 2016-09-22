@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88aa-9d7c-f671-cb81" revision="3" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88aa-9d7c-f671-cb81" revision="4" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" books="WarStuff Core Rules v2.0.0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="d33a-85f4-5dae-be76" name="Quality 1 Unit" points="10.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9b2e-2ad6-833e-3b9b" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="1"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="0394-6a10-5562-4ccf" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f972-f26b-aeec-d3a8" name="Quality 2 Unit" points="20.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aee2-7242-31b5-1cc4" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="4"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="d9e8-645e-b44f-a06e" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="fafc-92bb-5fd5-ec33" name="Quality 3 Unit" points="30.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="fafc-92bb-5fd5-ec33" name="Quality 3+ Unit" points="20.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -47,7 +9,7 @@
       <profiles>
         <profile id="5b49-edd7-6717-7435" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
           <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="3"/>
+            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="3+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -58,26 +20,7 @@
         </link>
       </links>
     </entry>
-    <entry id="49ba-69a9-3c37-e91c" name="Quality 5 Unit" points="50.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aea9-feae-cc0d-994c" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2333-fd9a-d3bb-ab06" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0194-10cd-2360-4c06" name="Quality 4 Unit" points="40.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0194-10cd-2360-4c06" name="Quality 4+ Unit" points="15.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -85,7 +28,7 @@
       <profiles>
         <profile id="1c04-f722-d2cb-775a" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
           <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="1"/>
+            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="4+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -96,121 +39,49 @@
         </link>
       </links>
     </entry>
+    <entry id="49ba-69a9-3c37-e91c" name="Quality 5+ Unit" points="10.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aea9-feae-cc0d-994c" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="4+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2333-fd9a-d3bb-ab06" targetId="2740-c452-266d-2a6d" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="1a01-3a88-086a-3f8a" name="Armored" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1a01-3a88-086a-3f8a" name="Armored" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="b232-01c4-ee90-2542" name="Armored" hidden="false">
-          <description>This unit gets +1 Quality when attacked.</description>
+          <description>Whenever this unit takes hits roll one die, on a 4+ it is ignored.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="de24-7abc-1113-31d9" name="Brutal" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="88a6-829b-1f20-817d" name="Brutal" hidden="false">
-          <description>Whenever this unit kills an enemy in melee all enemy models within 6” must take a morale test.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="13f9-b0cb-922b-8824" name="Camouflaged" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="7fb3-2b8b-7073-9d83" name="Camouflaged" hidden="false">
-          <description>This unit always counts as being in Cover, and it gets +2 Quality instead of only +1 Quality for cover.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2f90-9924-e4f0-42c3" name="Counter-Attack" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="ed7a-6f5e-3aaf-2ed6" name="Counter-Attack" hidden="false">
-          <description>Enemies attacking this unit in melee that roll a 1 </description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="0a52-5b4b-25b6-54c7" name="Deadly" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="805d-5c3e-d9bd-f50b" name="Deadly" hidden="false">
-          <description>Whenever this unit attacks an enemy and rolls a 6 the defender is immediately killed.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="21f0-2f5d-5e40-52e9" name="Death Blow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="ee1f-16b1-72fb-5617" name="Death Blow" hidden="false">
-          <description>If this unit is killed all enemy units within 3” must </description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2935-d9e1-84ad-f4cf" name="Entangle" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c8d4-bd30-40a2-dcf1" name="Entangle" hidden="false">
-          <description>This unit may use a Shooter (Short) attack which hits its target on a 4+ and immediately stuns it (this attack can’t wound or kill).</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="5d9d-9d0c-f4ae-9f4f" name="Fast" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5d9d-9d0c-f4ae-9f4f" name="Fast" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="9d18-9493-194b-fb05" name="Fast" hidden="false">
-          <description>This unit moves up to 9” when using Walk actions and up to 18” when using Run actions.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="8a10-1e21-3d00-8b73" name="Fear" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="2edf-56dc-3fd3-d6ce" name="Fear" hidden="false">
-          <description>Enemies trying to move into base contact with this </description>
+          <description>This unit moves 9” when using Walk actions and 18” when using Run/Charge actions.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -223,20 +94,20 @@
       <modifiers/>
       <rules>
         <rule id="2f3f-fbcf-d394-bdc0" name="Fearless" hidden="false">
-          <description>This unit automatically passes all morale tests.</description>
+          <description>This unit may re-roll failed rout tests as long as it is not stunned.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="8de0-850c-2140-b08a" name="Fire" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8de0-850c-2140-b08a" name="Fire/Poison" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="9cc5-a6aa-2f56-e078" name="Fire" hidden="false">
-          <description>Whenever this unit attacks an enemy and rolls a 6 the defender takes one additional hit.</description>
+        <rule id="9cc5-a6aa-2f56-e078" name="Fire/Poison" hidden="false">
+          <description>When dealing wounds to an enemy add +1 to the wound roll.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -256,13 +127,13 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f283-809f-2bfb-8a88" name="Frenzy" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f283-809f-2bfb-8a88" name="Frenzy" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="f504-7e53-e463-f3fa" name="Frenzy" hidden="false">
-          <description>Whenever this unit attacks in melee it gets +D3 Quality for that attack.</description>
+          <description>This unit may re-roll failed hits in Melee.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -275,150 +146,59 @@
       <modifiers/>
       <rules>
         <rule id="7a4b-120e-8d77-6d25" name="Healer" hidden="false">
-          <description>This unit may try to heal one friendly unit within 3” instead of using an attack. Roll one die, on a 4+ you may remove one Wound from the unit, and it may immediately make a free Recover action.</description>
+          <description>Whenever a friendly unit within 3” wound be killed roll one die. On a 4+ it is stunned instead.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="47d0-00d3-4ebb-e876" name="Hit &amp; Run" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="09b4-456b-ebb4-55bd" name="Hit &amp; Run" hidden="false">
-          <description>This unit may move by up to 6” after attacking in melee, staying at least 3” away from enemy models.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="19ba-3229-8827-2cb6" name="Intimidating" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="19ba-3229-8827-2cb6" name="Intimidating" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="31d2-20ec-02c2-5eab" name="Intimidating" hidden="false">
-          <description>Whenever this unit attacks or is attacked in melee its enemy must take a morale test. Note that units with this special rule are immune to it.</description>
+          <description>When in Melee enemy units without this rule must take a Quality test. If failed they must re-roll successful hits.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="529e-2adc-d368-2a2b" name="Large" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="529e-2adc-d368-2a2b" name="Large" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="b44d-75fd-bc94-74e6" name="Large" hidden="false">
-          <description>This unit gets +1 Quality when attacking or being attacked in melee against units without this special rule, but enemies targeting it with shooting attacks get +1 Quality for that attack</description>
+          <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="a0a2-c1eb-31cd-d956" name="Leader" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a0a2-c1eb-31cd-d956" name="Leader" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="c20b-f61a-945e-9372" name="Leader" hidden="false">
-          <description>Whenever this unit is activated you may try to command up to three friendly units within 3”. Roll three dice, and for each 4+ you may activate one friendly unit within 3” that has not been activated yet. All activated models act independently, and you may use them in any order.</description>
+          <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="a77d-cffb-4d76-d286" name="Pathfinder" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="8088-950c-6c75-b3bc" name="Pathfinder" hidden="false">
-          <description>This unit ignores the effects of difficult terrain, and if it takes any hits from dangerous terrain roll one die, on a 4+ the hit is ignored.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e534-43ca-3fc2-22b2" name="Pinning" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="d9ab-c128-f823-4056" name="Pinning" hidden="false">
-          <description>Whenever this unit target an enemy unit with a </description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="eb32-fec3-c890-7de6" name="Poison" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0a14-d2f1-c15b-e750" name="Poison" hidden="false">
-          <description>Whenever this unit attacks an enemy and rolls a 6 the defender immediately takes one wound.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="affe-eefd-62e0-cea4" name="Power Shot" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="832e-f3f5-3cdc-2722" name="Power Shot" hidden="false">
-          <description>This unit gets +1 Quality when shooting.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="51ed-7b30-f191-f2c5" name="Power Strike" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="4e93-1027-51a2-9664" name="Power Strike" hidden="false">
-          <description>This unit gets +1 Quality whe attacking in melee.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="7f92-9c65-953a-2fcb" name="Regeneration" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7f92-9c65-953a-2fcb" name="Regeneration" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="80a5-e011-b2db-f3d2" name="Regeneration" hidden="false">
-          <description>Whenever this unit would be killed roll one die, on a 4+ it takes one Wound instead.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="ded5-f072-9a64-89a1" name="Scout" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="7050-bd89-6daa-814f" name="Scout" hidden="false">
-          <description>This unit is deployed after all other non-scout units have been deployed. Place it anywhere on the table at least 12” away from enemy units (if both players have scout units roll-off to see who deploys first).</description>
+          <description>When this unit is killed roll one die, on a 4+ it is stunned instead.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -437,26 +217,13 @@
         </link>
       </links>
     </entry>
-    <entry id="f20d-2504-9ac2-e4cb" name="Small" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="9189-2258-c716-f8da" name="Small" hidden="false">
-          <description>Enemies without this special rule get +1 Quality when attacking or defending against this unit in melee, but this unit gets +1 Quality when targeted by shooting attacks.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="2e53-e0f5-09c3-c83e" name="Slow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="8efe-6952-a1c1-fed3" name="Slow" hidden="false">
-          <description>This unit moves up to 3” when using Walk actions and up to 6” when using Run actions.</description>
+          <description>This unit moves 3” when using Walk actions and 6” when using Run/Charge actions.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -469,85 +236,87 @@
       <modifiers/>
       <rules>
         <rule id="2677-18c1-fd2d-8e84" name="Stealthy" hidden="false">
-          <description>This unit gets +3 Quality when in Cover instead of only +1 Quality.</description>
+          <description>This unit is deployed after all other non-stealthy units have been deployed. You may place anywhere on the table over 12” away from enemy units (if both players have stealthy units roll-off to see who deploys first).</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="64eb-434c-e0c8-fc00" name="Sweep Attack" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="64eb-434c-e0c8-fc00" name="Strider" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="380e-230c-34fe-94cc" name="Sweep Attack" hidden="false">
-          <description>Whenever this unit attacks an enemy and rolls a 6 the defender is immediately stunned.</description>
+        <rule id="380e-230c-34fe-94cc" name="Strider" hidden="false">
+          <description>This unit treats difficult terrain as open terrain for the purpose of movement.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="56b7-9fd8-de64-6e75" name="Tough" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="56b7-9fd8-de64-6e75" name="Tough" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="65b4-1ce6-8237-fe29" name="Tough" hidden="false">
-          <description>Whenever this unit takes a hit roll one die, on a 4+ the hit is ignored.</description>
+          <description>This model must accumulate 3 wounds before rolling on the wound table.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="0cb9-85a3-9637-a64d" name="Trapper" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="f702-cd40-1f1d-1c47" name="Trapper" hidden="false">
-          <description>Enemies attacking this unit in melee that roll a 1 are immediately stunned.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="bece-27cc-9cf1-cb8c" name="Undead" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="bece-27cc-9cf1-cb8c" name="Undead" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="1ab5-2947-e28c-c824" name="Undead" hidden="false">
-          <description>This unit is immune to Poison, and if it fails any morale test it is immediately killed.</description>
+          <description>This unit is not killed if you fail a rout test.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="f9c1-65c5-f6ef-9dfb" name="Vanguard" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b9b0-8e1d-b916-e495" name="Wizard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="625a-04f1-318f-655d" name="Vanguard" hidden="false">
-          <description>This unit may immediately move by up to 12” after being deployed.</description>
+        <rule id="b0cb-87ef-7c30-247c" name="Wizard" hidden="false">
+          <description>When this unit is activated it may cast one of two spells before doing anything else. Roll one die, an on a 4+ it is cast.
+ * Fireball: Target enemy unit within 12” takes one hit with Fire.
+ * Freeze Ray: Target enemy unit within 18” takes one hit with Freeze.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="b9b0-8e1d-b916-e495" name="Vicious" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5007-ba31-fe5b-a360" name="Freeze" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="b0cb-87ef-7c30-247c" name="Vicious" hidden="false">
-          <description>Whenever this unit attacks an enemy and rolls a 6 the defender takes D3 additional hits.</description>
+        <rule id="c20f-c4b7-b1b3-2ffa" name="Freeze" hidden="false">
+          <description>When dealing hits to an enemy roll one die, on a 4+ it can’t move during its next activation.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="8963-d948-cd71-3ee3" name="Mounted" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e978-d53d-a806-a6bf" name="Mounted" hidden="false">
+          <description>This unit has 2 attacks when charging.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -556,6 +325,52 @@
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
+    <entryGroup id="dd9a-6e6c-3186-a9bd" name="Shooter" defaultEntryId="cf38-8f89-136e-37ff" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="cf38-8f89-136e-37ff" name="Short" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="c86f-5de7-279c-b7a3" name="Shooter (Short)" hidden="false">
+              <description>This unit may use shooting attacks with a range of 12”.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="c8b0-7d0f-9cdc-8e49" name="Medium" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="1f03-87ea-5e2b-37b7" name="Shooter (Medium)" hidden="false">
+              <description>This unit may use shooting attacks with a range of 24”.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="9114-a958-2cf9-6b08" name="Long" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="714c-f13f-a7bb-6977" name="Shooter (Long)" hidden="false">
+              <description>This unit may use shooting range of 36”.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="2740-c452-266d-2a6d" name="Special Rules" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -564,28 +379,7 @@
         <link id="73cb-f164-00b8-ee86" targetId="1a01-3a88-086a-3f8a" linkType="entry">
           <modifiers/>
         </link>
-        <link id="279b-27d5-7e86-bd6e" targetId="de24-7abc-1113-31d9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4459-4fdc-005b-4064" targetId="13f9-b0cb-922b-8824" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="cd92-0ce8-abc6-4b13" targetId="2f90-9924-e4f0-42c3" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4445-3c35-9259-d4f3" targetId="0a52-5b4b-25b6-54c7" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0cc8-a44d-c00b-a18e" targetId="21f0-2f5d-5e40-52e9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ff31-fb3c-451b-8dfd" targetId="2935-d9e1-84ad-f4cf" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="be96-e235-29b9-4fb2" targetId="5d9d-9d0c-f4ae-9f4f" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f205-eef3-dd7b-4a0f" targetId="8a10-1e21-3d00-8b73" linkType="entry">
           <modifiers/>
         </link>
         <link id="b45b-9798-27f8-9e43" targetId="e5cd-1626-d086-63bd" linkType="entry">
@@ -603,9 +397,6 @@
         <link id="9008-c606-1e6f-9281" targetId="d0a7-b221-a047-8ae8" linkType="entry">
           <modifiers/>
         </link>
-        <link id="12c3-1ab9-e04b-06e1" targetId="47d0-00d3-4ebb-e876" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="7879-e607-58d3-0365" targetId="19ba-3229-8827-2cb6" linkType="entry">
           <modifiers/>
         </link>
@@ -615,31 +406,10 @@
         <link id="12b1-f11a-b784-1439" targetId="a0a2-c1eb-31cd-d956" linkType="entry">
           <modifiers/>
         </link>
-        <link id="720e-d57d-19bf-6fc7" targetId="a77d-cffb-4d76-d286" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2d54-da72-951b-844e" targetId="e534-43ca-3fc2-22b2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3224-3b2f-78b6-1228" targetId="eb32-fec3-c890-7de6" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c8a1-e00d-0c18-b60e" targetId="affe-eefd-62e0-cea4" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a91e-2738-18e2-94ef" targetId="51ed-7b30-f191-f2c5" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="0328-b1fd-9f91-81dc" targetId="7f92-9c65-953a-2fcb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="88a1-3251-acb6-360a" targetId="ded5-f072-9a64-89a1" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="fde6-1324-22a5-5b5b" targetId="37ed-a78c-55ae-b040" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5ff8-91da-10d6-1434" targetId="f20d-2504-9ac2-e4cb" linkType="entry">
           <modifiers/>
         </link>
         <link id="7731-97d4-ad40-a9ab" targetId="2e53-e0f5-09c3-c83e" linkType="entry">
@@ -654,65 +424,16 @@
         <link id="c951-c833-ee11-9fb3" targetId="56b7-9fd8-de64-6e75" linkType="entry">
           <modifiers/>
         </link>
-        <link id="4b65-bac5-00a6-1911" targetId="0cb9-85a3-9637-a64d" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="f15d-4ebe-5b00-063d" targetId="bece-27cc-9cf1-cb8c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c113-a576-8e29-db79" targetId="f9c1-65c5-f6ef-9dfb" linkType="entry">
           <modifiers/>
         </link>
         <link id="a46d-6283-1f96-7c15" targetId="b9b0-8e1d-b916-e495" linkType="entry">
           <modifiers/>
         </link>
+        <link id="e4c4-c078-0466-2828" targetId="5007-ba31-fe5b-a360" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
-    </entryGroup>
-    <entryGroup id="dd9a-6e6c-3186-a9bd" name="Shooter" defaultEntryId="cf38-8f89-136e-37ff" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="cf38-8f89-136e-37ff" name="Short" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="c86f-5de7-279c-b7a3" name="Shooter (Short)" hidden="false">
-              <description>This unit may use a shooting attack with 12” range.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="c8b0-7d0f-9cdc-8e49" name="Medium" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="1f03-87ea-5e2b-37b7" name="Shooter (Medium)" hidden="false">
-              <description>This unit may use a shooting attack with 18” range.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="9114-a958-2cf9-6b08" name="Long" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="714c-f13f-a7bb-6977" name="Shooter (Long)" hidden="false">
-              <description>This unit may use a shooting attack with 24” range.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules/>
