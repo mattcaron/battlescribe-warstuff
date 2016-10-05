@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88aa-9d7c-f671-cb81" revision="4" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" books="WarStuff Core Rules v2.0.0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88aa-9d7c-f671-cb81" revision="5" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" books="WarStuff Core Rules v2.1.0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="fafc-92bb-5fd5-ec33" name="Quality 3+ Unit" points="20.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -47,13 +47,51 @@
       <profiles>
         <profile id="aea9-feae-cc0d-994c" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
           <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="4+"/>
+            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="5+"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
         <link id="2333-fd9a-d3bb-ab06" targetId="2740-c452-266d-2a6d" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4737-a3bb-63de-2975" name="Quality 6+ Unit" points="6.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e104-6763-9b92-d4c9" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="6+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="da94-8362-03dd-4695" targetId="2740-c452-266d-2a6d" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fd02-0a2f-91e2-4139" name="Quality 2+ Unit" points="25.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d5d9-a3f5-e2ea-a36b" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9412-0203-1afe-e18f" targetId="2740-c452-266d-2a6d" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -127,6 +165,19 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="5007-ba31-fe5b-a360" name="Freeze" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c20f-c4b7-b1b3-2ffa" name="Freeze" hidden="false">
+          <description>When dealing hits to an enemy roll one die, on a 4+ it can’t move during its next activation.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="f283-809f-2bfb-8a88" name="Frenzy" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -186,6 +237,19 @@
       <rules>
         <rule id="c20b-f61a-945e-9372" name="Leader" hidden="false">
           <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="8963-d948-cd71-3ee3" name="Mounted" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e978-d53d-a806-a6bf" name="Mounted" hidden="false">
+          <description>This unit has 2 attacks when charging.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -297,26 +361,52 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5007-ba31-fe5b-a360" name="Freeze" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a768-d628-893c-7271" name="Camouflaged" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="c20f-c4b7-b1b3-2ffa" name="Freeze" hidden="false">
-          <description>When dealing hits to an enemy roll one die, on a 4+ it can’t move during its next activation.</description>
+        <rule id="506f-c0a2-a58b-67a1" name="Camouflaged" hidden="false">
+          <description>This unit always counts as being in Cover, even when it is out in the open.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
       <links/>
     </entry>
-    <entry id="8963-d948-cd71-3ee3" name="Mounted" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="504a-4a4c-b578-3cd5" name="Deadly" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="e978-d53d-a806-a6bf" name="Mounted" hidden="false">
-          <description>This unit has 2 attacks when charging.</description>
+        <rule id="124b-8c6c-ecd3-36db" name="Deadly" hidden="false">
+          <description>Whenever this unit roll a 6 to hit it deals one automatic wound. Note that these hits can’t be ignored by the Armored rule.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="2c94-f31f-d872-ba9e" name="Death Blow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9f11-1e4d-182e-753f" name="Death Blow" hidden="false">
+          <description>If this unit is killed all enemy units within 3” take one automatic hit.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3e0b-4646-0f9c-3045" name="Hit &amp; Run" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="afc9-684a-14cb-c5aa" name="Hit &amp; Run" hidden="false">
+          <description>This unit may move back by 3” after charging (enemies can’t strike back).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -431,6 +521,21 @@
           <modifiers/>
         </link>
         <link id="e4c4-c078-0466-2828" targetId="5007-ba31-fe5b-a360" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0ed4-8320-7812-f099" targetId="a768-d628-893c-7271" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dd66-3009-61fc-1dbf" targetId="504a-4a4c-b578-3cd5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="860c-3815-3296-e30a" targetId="2c94-f31f-d872-ba9e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="321c-6c0f-aa5f-3f43" targetId="3e0b-4646-0f9c-3045" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="948d-f59c-76f6-17ab" targetId="8963-d948-cd71-3ee3" linkType="entry">
           <modifiers/>
         </link>
       </links>
