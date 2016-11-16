@@ -1,546 +1,1000 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88aa-9d7c-f671-cb81" revision="6" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" battleScribeVersion="1.15" name="Warstuff" books="WarStuff Core Rules v2.1.0" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <entries>
-    <entry id="fd02-0a2f-91e2-4139" name="Quality 2+ Unit" points="25.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d5d9-a3f5-e2ea-a36b" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="2+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9412-0203-1afe-e18f" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="fafc-92bb-5fd5-ec33" name="Quality 3+ Unit" points="20.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5b49-edd7-6717-7435" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="3+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="d81a-fa13-e3c6-a59c" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0194-10cd-2360-4c06" name="Quality 4+ Unit" points="15.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="1c04-f722-d2cb-775a" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="4+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2927-5ec7-0ce5-2ca6" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="49ba-69a9-3c37-e91c" name="Quality 5+ Unit" points="10.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aea9-feae-cc0d-994c" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="5+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2333-fd9a-d3bb-ab06" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4737-a3bb-63de-2975" name="Quality 6+ Unit" points="5.0" categoryId="e81f-7a6f-19b5-5719" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="e104-6763-9b92-d4c9" profileTypeId="c3bc-e2ea-d6c9-9428" name="Stats" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="161b-19d2-8bb0-acda" name="Quality" value="6+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="da94-8362-03dd-4695" targetId="2740-c452-266d-2a6d" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-  </entries>
+<catalogue id="88aa-9d7c-f671-cb81" name="Warstuff" book="WarStuff Core Rules v2.1.0" revision="7" battleScribeVersion="2.00" gameSystemId="d325-b4cc-343f-7676" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
   <rules/>
-  <links/>
-  <sharedEntries>
-    <entry id="1a01-3a88-086a-3f8a" name="Armored" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="fd02-0a2f-91e2-4139" name="Quality 2+ Unit" hidden="false" collective="false" categoryEntryId="e81f-7a6f-19b5-5719" type="model">
+      <profiles>
+        <profile id="d5d9-a3f5-e2ea-a36b" name="Stats" hidden="false" profileTypeId="c3bc-e2ea-d6c9-9428">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quality" characteristicTypeId="161b-19d2-8bb0-acda" value="2+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9412-0203-1afe-e18f" hidden="false" targetId="2740-c452-266d-2a6d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fafc-92bb-5fd5-ec33" name="Quality 3+ Unit" hidden="false" collective="false" categoryEntryId="e81f-7a6f-19b5-5719" type="model">
+      <profiles>
+        <profile id="5b49-edd7-6717-7435" name="Stats" hidden="false" profileTypeId="c3bc-e2ea-d6c9-9428">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quality" characteristicTypeId="161b-19d2-8bb0-acda" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d81a-fa13-e3c6-a59c" hidden="false" targetId="2740-c452-266d-2a6d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0194-10cd-2360-4c06" name="Quality 4+ Unit" hidden="false" collective="false" categoryEntryId="e81f-7a6f-19b5-5719" type="model">
+      <profiles>
+        <profile id="1c04-f722-d2cb-775a" name="Stats" hidden="false" profileTypeId="c3bc-e2ea-d6c9-9428">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quality" characteristicTypeId="161b-19d2-8bb0-acda" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2927-5ec7-0ce5-2ca6" hidden="false" targetId="2740-c452-266d-2a6d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49ba-69a9-3c37-e91c" name="Quality 5+ Unit" hidden="false" collective="false" categoryEntryId="e81f-7a6f-19b5-5719" type="model">
+      <profiles>
+        <profile id="aea9-feae-cc0d-994c" name="Stats" hidden="false" profileTypeId="c3bc-e2ea-d6c9-9428">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quality" characteristicTypeId="161b-19d2-8bb0-acda" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2333-fd9a-d3bb-ab06" hidden="false" targetId="2740-c452-266d-2a6d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4737-a3bb-63de-2975" name="Quality 6+ Unit" hidden="false" collective="false" categoryEntryId="e81f-7a6f-19b5-5719" type="model">
+      <profiles>
+        <profile id="e104-6763-9b92-d4c9" name="Stats" hidden="false" profileTypeId="c3bc-e2ea-d6c9-9428">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quality" characteristicTypeId="161b-19d2-8bb0-acda" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="da94-8362-03dd-4695" hidden="false" targetId="2740-c452-266d-2a6d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="1a01-3a88-086a-3f8a" name="Armored" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="b232-01c4-ee90-2542" name="Armored" hidden="false">
-          <description>Whenever this unit takes hits roll one die, on a 4+ it is ignored.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>Whenever this unit takes hits roll one die, on a 4+ it is ignored.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="a768-d628-893c-7271" name="Camouflaged" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a768-d628-893c-7271" name="Camouflaged" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="506f-c0a2-a58b-67a1" name="Camouflaged" hidden="false">
-          <description>This unit always counts as being in Cover, even when it is out in the open.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit always counts as being in Cover, even when it is out in the open.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="504a-4a4c-b578-3cd5" name="Deadly" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="504a-4a4c-b578-3cd5" name="Deadly" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="124b-8c6c-ecd3-36db" name="Deadly" hidden="false">
-          <description>Whenever this unit roll a 6 to hit it deals one automatic wound. Note that these hits can’t be ignored by the Armored rule.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>Whenever this unit roll a 6 to hit it deals one automatic wound. Note that these hits can’t be ignored by the Armored rule.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2c94-f31f-d872-ba9e" name="Death Blow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c94-f31f-d872-ba9e" name="Death Blow" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="9f11-1e4d-182e-753f" name="Death Blow" hidden="false">
-          <description>If this unit is killed all enemy units within 3” take one automatic hit.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>If this unit is killed all enemy units within 3” take one automatic hit.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="5d9d-9d0c-f4ae-9f4f" name="Fast" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d9d-9d0c-f4ae-9f4f" name="Fast" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="9d18-9493-194b-fb05" name="Fast" hidden="false">
-          <description>This unit moves 9” when using Walk actions and 18” when using Run/Charge actions.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit moves 9” when using Walk actions and 18” when using Run/Charge actions.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e5cd-1626-d086-63bd" name="Fearless" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5cd-1626-d086-63bd" name="Fearless" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="2f3f-fbcf-d394-bdc0" name="Fearless" hidden="false">
-          <description>This unit may re-roll failed rout tests as long as it is not stunned.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit may re-roll failed rout tests as long as it is not stunned.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="8de0-850c-2140-b08a" name="Fire/Poison" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8de0-850c-2140-b08a" name="Fire/Poison" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="9cc5-a6aa-2f56-e078" name="Fire/Poison" hidden="false">
-          <description>When dealing wounds to an enemy add +1 to the wound roll.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>When dealing wounds to an enemy add +1 to the wound roll.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="63c7-9bed-04e2-50e6" name="Flying" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63c7-9bed-04e2-50e6" name="Flying" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="347b-a226-2ee1-54ae" name="Flying" hidden="false">
-          <description>This unit may move through other units and obstacles, and it may ignore terrain effects.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit may move through other units and obstacles, and it may ignore terrain effects.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="5007-ba31-fe5b-a360" name="Freeze" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5007-ba31-fe5b-a360" name="Freeze" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="c20f-c4b7-b1b3-2ffa" name="Freeze" hidden="false">
-          <description>When dealing hits to an enemy roll one die, on a 4+ it can’t move during its next activation.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>When dealing hits to an enemy roll one die, on a 4+ it can’t move during its next activation.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="f283-809f-2bfb-8a88" name="Frenzy" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f283-809f-2bfb-8a88" name="Frenzy" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="f504-7e53-e463-f3fa" name="Frenzy" hidden="false">
-          <description>This unit may re-roll failed hits in Melee.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit may re-roll failed hits in Melee.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="d0a7-b221-a047-8ae8" name="Healer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0a7-b221-a047-8ae8" name="Healer" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="7a4b-120e-8d77-6d25" name="Healer" hidden="false">
-          <description>Whenever a friendly unit within 3” wound be killed roll one die. On a 4+ it is stunned instead.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>Whenever a friendly unit within 3” wound be killed roll one die. On a 4+ it is stunned instead.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="3e0b-4646-0f9c-3045" name="Hit &amp; Run" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e0b-4646-0f9c-3045" name="Hit &amp; Run" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="afc9-684a-14cb-c5aa" name="Hit &amp; Run" hidden="false">
-          <description>This unit may move back by 3” after charging (enemies can’t strike back).</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit may move back by 3” after charging (enemies can’t strike back).</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="19ba-3229-8827-2cb6" name="Intimidating" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19ba-3229-8827-2cb6" name="Intimidating" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="31d2-20ec-02c2-5eab" name="Intimidating" hidden="false">
-          <description>When in Melee enemy units without this rule must take a Quality test. If failed they must re-roll successful hits.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>When in Melee enemy units without this rule must take a Quality test. If failed they must re-roll successful hits.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="529e-2adc-d368-2a2b" name="Large" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="529e-2adc-d368-2a2b" name="Large" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="b44d-75fd-bc94-74e6" name="Large" hidden="false">
-          <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="a0a2-c1eb-31cd-d956" name="Leader" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0a2-c1eb-31cd-d956" name="Leader" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="c20b-f61a-945e-9372" name="Leader" hidden="false">
-          <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>When this unit is activated roll one die, on a 4+ target friendly unit within 6” may immediately take one action.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="8963-d948-cd71-3ee3" name="Mounted" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8963-d948-cd71-3ee3" name="Mounted" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="e978-d53d-a806-a6bf" name="Mounted" hidden="false">
-          <description>This unit has 2 attacks when charging.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit has 2 attacks when charging.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="7f92-9c65-953a-2fcb" name="Regeneration" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f92-9c65-953a-2fcb" name="Regeneration" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="80a5-e011-b2db-f3d2" name="Regeneration" hidden="false">
-          <description>When this unit is killed roll one die, on a 4+ it is stunned instead.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>When this unit is killed roll one die, on a 4+ it is stunned instead.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="37ed-a78c-55ae-b040" name="Shooter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37ed-a78c-55ae-b040" name="Shooter" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules/>
-      <profiles/>
-      <links>
-        <link id="b096-79c7-4489-facd" targetId="dd9a-6e6c-3186-a9bd" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="2e53-e0f5-09c3-c83e" name="Slow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b096-79c7-4489-facd" hidden="false" targetId="dd9a-6e6c-3186-a9bd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e53-e0f5-09c3-c83e" name="Slow" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="8efe-6952-a1c1-fed3" name="Slow" hidden="false">
-          <description>This unit moves 3” when using Walk actions and 6” when using Run/Charge actions.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit moves 3” when using Walk actions and 6” when using Run/Charge actions.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="f671-1d89-caec-57b0" name="Stealthy" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="points" scope="parent" value="-5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="-5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f671-1d89-caec-57b0" name="Stealthy" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="2677-18c1-fd2d-8e84" name="Stealthy" hidden="false">
-          <description>This unit is deployed after all other non-stealthy units have been deployed. You may place anywhere on the table over 12” away from enemy units (if both players have stealthy units roll-off to see who deploys first).</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit is deployed after all other non-stealthy units have been deployed. You may place anywhere on the table over 12” away from enemy units (if both players have stealthy units roll-off to see who deploys first).</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="64eb-434c-e0c8-fc00" name="Strider" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64eb-434c-e0c8-fc00" name="Strider" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="380e-230c-34fe-94cc" name="Strider" hidden="false">
-          <description>This unit treats difficult terrain as open terrain for the purpose of movement.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit treats difficult terrain as open terrain for the purpose of movement.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="56b7-9fd8-de64-6e75" name="Tough" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56b7-9fd8-de64-6e75" name="Tough" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="65b4-1ce6-8237-fe29" name="Tough" hidden="false">
-          <description>This model must accumulate 3 wounds before rolling on the wound table.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This model must accumulate 3 wounds before rolling on the wound table.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="bece-27cc-9cf1-cb8c" name="Undead" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bece-27cc-9cf1-cb8c" name="Undead" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="1ab5-2947-e28c-c824" name="Undead" hidden="false">
-          <description>This unit is not killed if you fail a rout test.</description>
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>This unit is not killed if you fail a rout test.</description>
         </rule>
       </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="b9b0-8e1d-b916-e495" name="Wizard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
+      <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="points" scope="parent" value="-5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9b0-8e1d-b916-e495" name="Wizard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
       <rules>
         <rule id="b0cb-87ef-7c30-247c" name="Wizard" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <description>When this unit is activated it may cast one of two spells before doing anything else. Roll one die, an on a 4+ it is cast.
  * Fireball: Target enemy unit within 12” takes one hit with Fire.
  * Freeze Ray: Target enemy unit within 18” takes one hit with Freeze.</description>
-          <modifiers/>
         </rule>
       </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="dd9a-6e6c-3186-a9bd" name="Shooter" hidden="false" collective="false" defaultSelectionEntryId="cf38-8f89-136e-37ff">
       <profiles/>
-      <links/>
-    </entry>
-  </sharedEntries>
-  <sharedEntryGroups>
-    <entryGroup id="dd9a-6e6c-3186-a9bd" name="Shooter" defaultEntryId="cf38-8f89-136e-37ff" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="cf38-8f89-136e-37ff" name="Short" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="cf38-8f89-136e-37ff" name="Short" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
           <rules>
             <rule id="c86f-5de7-279c-b7a3" name="Shooter (Short)" hidden="false">
-              <description>This unit may use shooting attacks with a range of 12”.</description>
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <description>This unit may use shooting attacks with a range of 12”.</description>
             </rule>
           </rules>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="c8b0-7d0f-9cdc-8e49" name="Medium" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
+          <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8b0-7d0f-9cdc-8e49" name="Medium" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
           <rules>
             <rule id="1f03-87ea-5e2b-37b7" name="Shooter (Medium)" hidden="false">
-              <description>This unit may use shooting attacks with a range of 24”.</description>
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <description>This unit may use shooting attacks with a range of 24”.</description>
             </rule>
           </rules>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="9114-a958-2cf9-6b08" name="Long" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
+          <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9114-a958-2cf9-6b08" name="Long" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
           <rules>
             <rule id="714c-f13f-a7bb-6977" name="Shooter (Long)" hidden="false">
-              <description>This unit may use shooting range of 36”.</description>
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <description>This unit may use shooting range of 36”.</description>
             </rule>
           </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2740-c452-266d-2a6d" name="Special Rules" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="73cb-f164-00b8-ee86" hidden="false" targetId="1a01-3a88-086a-3f8a" type="selectionEntry">
           <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="2740-c452-266d-2a6d" name="Special Rules" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="73cb-f164-00b8-ee86" targetId="1a01-3a88-086a-3f8a" linkType="entry">
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="be96-e235-29b9-4fb2" targetId="5d9d-9d0c-f4ae-9f4f" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="be96-e235-29b9-4fb2" hidden="false" targetId="5d9d-9d0c-f4ae-9f4f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="b45b-9798-27f8-9e43" targetId="e5cd-1626-d086-63bd" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="b45b-9798-27f8-9e43" hidden="false" targetId="e5cd-1626-d086-63bd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="61af-09fc-0518-3151" targetId="8de0-850c-2140-b08a" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="61af-09fc-0518-3151" hidden="false" targetId="8de0-850c-2140-b08a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="4ece-13be-a454-4af9" targetId="63c7-9bed-04e2-50e6" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="4ece-13be-a454-4af9" hidden="false" targetId="63c7-9bed-04e2-50e6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="b6bf-b632-3910-9828" targetId="f283-809f-2bfb-8a88" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="b6bf-b632-3910-9828" hidden="false" targetId="f283-809f-2bfb-8a88" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="9008-c606-1e6f-9281" targetId="d0a7-b221-a047-8ae8" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="9008-c606-1e6f-9281" hidden="false" targetId="d0a7-b221-a047-8ae8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="7879-e607-58d3-0365" targetId="19ba-3229-8827-2cb6" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="7879-e607-58d3-0365" hidden="false" targetId="19ba-3229-8827-2cb6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="e234-8c3d-24e6-e6e6" targetId="529e-2adc-d368-2a2b" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="e234-8c3d-24e6-e6e6" hidden="false" targetId="529e-2adc-d368-2a2b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="12b1-f11a-b784-1439" targetId="a0a2-c1eb-31cd-d956" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="12b1-f11a-b784-1439" hidden="false" targetId="a0a2-c1eb-31cd-d956" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="0328-b1fd-9f91-81dc" targetId="7f92-9c65-953a-2fcb" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="0328-b1fd-9f91-81dc" hidden="false" targetId="7f92-9c65-953a-2fcb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="fde6-1324-22a5-5b5b" targetId="37ed-a78c-55ae-b040" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="fde6-1324-22a5-5b5b" hidden="false" targetId="37ed-a78c-55ae-b040" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="7731-97d4-ad40-a9ab" targetId="2e53-e0f5-09c3-c83e" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="7731-97d4-ad40-a9ab" hidden="false" targetId="2e53-e0f5-09c3-c83e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="c0bb-2b17-a667-4006" targetId="f671-1d89-caec-57b0" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="c0bb-2b17-a667-4006" hidden="false" targetId="f671-1d89-caec-57b0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="56f7-6c19-a52a-1a7e" targetId="64eb-434c-e0c8-fc00" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="56f7-6c19-a52a-1a7e" hidden="false" targetId="64eb-434c-e0c8-fc00" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="c951-c833-ee11-9fb3" targetId="56b7-9fd8-de64-6e75" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="c951-c833-ee11-9fb3" hidden="false" targetId="56b7-9fd8-de64-6e75" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="f15d-4ebe-5b00-063d" targetId="bece-27cc-9cf1-cb8c" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="f15d-4ebe-5b00-063d" hidden="false" targetId="bece-27cc-9cf1-cb8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="a46d-6283-1f96-7c15" targetId="b9b0-8e1d-b916-e495" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="a46d-6283-1f96-7c15" hidden="false" targetId="b9b0-8e1d-b916-e495" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="e4c4-c078-0466-2828" targetId="5007-ba31-fe5b-a360" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="e4c4-c078-0466-2828" hidden="false" targetId="5007-ba31-fe5b-a360" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="0ed4-8320-7812-f099" targetId="a768-d628-893c-7271" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="0ed4-8320-7812-f099" hidden="false" targetId="a768-d628-893c-7271" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="dd66-3009-61fc-1dbf" targetId="504a-4a4c-b578-3cd5" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="dd66-3009-61fc-1dbf" hidden="false" targetId="504a-4a4c-b578-3cd5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="860c-3815-3296-e30a" targetId="2c94-f31f-d872-ba9e" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="860c-3815-3296-e30a" hidden="false" targetId="2c94-f31f-d872-ba9e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="321c-6c0f-aa5f-3f43" targetId="3e0b-4646-0f9c-3045" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="321c-6c0f-aa5f-3f43" hidden="false" targetId="3e0b-4646-0f9c-3045" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="948d-f59c-76f6-17ab" targetId="8963-d948-cd71-3ee3" linkType="entry">
+          <constraints/>
+        </entryLink>
+        <entryLink id="948d-f59c-76f6-17ab" hidden="false" targetId="8963-d948-cd71-3ee3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-  </sharedEntryGroups>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules/>
   <sharedProfiles/>
 </catalogue>
